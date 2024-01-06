@@ -1,0 +1,174 @@
+@media print{
+    .post{
+        margin-left: 0%;
+    }
+    .post-bloc-div-btn{
+        display: none;
+    }
+    .left-section--menu--header{
+        display: inline;
+    }
+    .left-section--filter{
+        display: none;
+    }
+    .left-section--social-icons{
+        display: none;
+    }
+    .Blok{
+        display: none;
+    }
+    .left-section--menu--header-symb{
+        position: relative;
+        width: 60px;
+    }
+    .left-section--end-paragraphe{
+        display: none;
+    }
+    .book{
+        margin-left: 1%;
+        margin-right: 1%;
+        max-width: 25%;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 17%;
+    }
+}
+
+
+
+@media only screen and (max-width: 820px){
+    .left-section{
+        position: fixed;
+        height: 100%;
+        background-color: #232b2d;
+        z-index: 99999;
+        overflow-y: scroll;
+    }
+    .post-section--wrapper{
+        margin-left: 10px;
+        margin-right: 10px;
+        column-count: 3;
+    }
+    .left-section--menu ul li{
+        background-color: #2f373b;
+        text-align: right;
+        list-style: none;
+        font-weight: normal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 1px solid black;
+        border-right: 0px;
+        padding: 20px 0px 20px 0px;
+    }
+    .left-section--menu ul li a{
+        padding-right: 20px;
+        text-decoration: none;
+        color: #FFF;
+        font-size: xx-large;
+    }
+    .left-section--filter ul li:first-child{
+        padding: 15px 20px 5px 15px;
+        color: #19b5b3;
+        font-size: larger;
+    }
+    .left-section--filter ul li a{
+        padding-right: 20px;
+        text-decoration: none;
+        color: darkgray;
+        font-size: larger;
+        font-weight: normal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .left-section--end-paragraphe{
+        color: darkgray;
+        font-size: medium;
+        text-align: right;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .post-section--wrapper{
+        margin-left: 10px;
+        margin-right: 10px;
+        column-count: 2;
+    }
+    .left-section--menu ul li{
+        background-color: #2f373b;
+        text-align: right;
+        list-style: none;
+        font-weight: normal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 1px solid black;
+        border-right: 0px;
+        padding: 20px 0px 20px 0px;
+    }
+    .left-section--menu ul li a{
+        padding-right: 20px;
+        text-decoration: none;
+        color: #FFF;
+        font-size: xx-large;
+    }
+    .left-section--filter ul li:first-child{
+        padding: 15px 20px 5px 15px;
+        color: #19b5b3;
+        font-size: larger;
+    }
+    .left-section--filter ul li a{
+        padding-right: 20px;
+        text-decoration: none;
+        color: darkgray;
+        font-size: larger;
+        font-weight: normal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .left-section--end-paragraphe{
+        color: darkgray;
+        font-size: medium;
+        text-align: right;
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .left-section{
+        width: 250px;
+    }
+    .post-section--wrapper{
+        margin-left: 10px;
+        margin-right: 10px;
+        column-count: 1;
+    }
+    .left-section--menu ul li{
+        background-color: #2f373b;
+        text-align: right;
+        list-style: none;
+        font-weight: normal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 1px solid black;
+        border-right: 0px;
+        padding: 20px 0px 20px 0px;
+    }
+    .left-section--menu ul li a{
+        padding-right: 10px;
+        text-decoration: none;
+        color: #FFF;
+        font-size: xx-large;
+    }
+    .left-section--filter ul li:first-child{
+        padding: 15px 10px 5px 15px;
+        color: #19b5b3;
+        font-size: larger;
+    }
+    .left-section--filter ul li a{
+        padding-right: 10px;
+        text-decoration: none;
+        color: darkgray;
+        font-size: larger;
+        font-weight: normal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .left-section--end-paragraphe{
+        color: darkgray;
+        font-size: larger;
+        text-align: right;
+        margin-right: 10px;
+    }
+}

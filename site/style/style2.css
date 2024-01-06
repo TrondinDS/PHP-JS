@@ -1,0 +1,231 @@
+.information{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(25, 181, 179, 0.90);
+    padding: 25px 25px 22px 0px;
+    z-index: 99998;
+    display: none;
+}
+.information-first-symb{
+    fill: #FFF;
+    transform: translate(225%, -105%);
+}
+.information-second-symb{
+    fill: #FFF;
+    height: 75px;
+    width: 75px;
+}
+
+
+.post{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.post-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    columns: 5;
+    width: 100%;
+    margin-left: 260px;
+    margin-top: 18px;
+}
+
+.post-bloc {
+    width: 18.5%;
+    min-width: 220px;
+    margin: 0px 5px 20px 5px;
+    background-color: #FFF;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+
+
+.margin-link{
+margin-bottom: 50px;
+}
+
+.post-bloc-div-btn{
+    width: 100%;
+}
+.post-section--button{
+    background-color: #19b5b3;
+    color: #FFF;
+    width: max-content;
+    height: 50px;
+    padding: 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    margin-left: 50%;
+}
+.align-center
+{
+    margin-left: 46%;
+}
+
+
+.enable{
+    display: block;
+}
+.diseble{
+    display: none;
+}
+
+
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.checkBoxDiv{
+    display: flex;
+    justify-content: center;
+}
+.checkBoxDiv_Colum{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.book{
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 15%;
+    max-height: 470px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2%;
+    border: 3px solid #0b2c2c;
+}
+.bookimg{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    max-width: 96%;
+    max-height: 96%;
+}
+.book-tetxt{
+    text-align: center;
+}
+.img{
+    width: 100%;
+    min-width: 100%;
+}
+.text-h2-cemter{
+    margin-top: 0%;
+    border-bottom: 2px solid #0b2c2c;
+    border-top: 2px solid #0b2c2c;
+    text-align: center;
+}
+.text-size-h2{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.text-size-text{
+    font-size: 100%;
+    border-bottom: 1px solid #909e9e;
+    text-align: center;
+}
+
+.login-btn {
+    /* Your button styles */
+    background-color: #19b5b3;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 175px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Add your modal styles here */
+.modal {
+    margin-left: 38%;
+    margin-top: 12%;
+    display: none;
+    position: relative;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 320px;
+    height: 538px;
+    overflow: auto;
+    background-color: #033a399c;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+.modal-r {
+    margin-left: 38%;
+    margin-top: 7%;
+    display: none;
+    position: relative;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 632x;
+    overflow: auto;
+    background-color: #033a399c;
+}
+
+.modal-content-r {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+.modal-c {
+    margin-left: 38%;
+    margin-top: 7%;
+    position: relative;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 632x;
+    overflow: auto;
+    background-color: #033a399c;
+}
+
+.modal-content-c {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+.text-loader{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.marginVN{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-loader-form{
+    padding: 10px 20px;
+    width: 120px;
+}
